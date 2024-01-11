@@ -4,7 +4,7 @@ import { PortableText } from "@portabletext/react";
 import Link from "next/link";
 
 type Props = {
-  params: { projects: string };
+  params: { projects: string};
 };
 
 export default async function Project({ params }: Props) {

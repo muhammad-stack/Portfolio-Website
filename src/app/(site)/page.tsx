@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { getProjects } from "../../../sanity/sanity-utils";
 import Link from "next/link";
-import Typewriter from "typewriter-effect";
-import Components from "./project/[projects]/components";
+
 
 export default async function Home() {
   const data = await getProjects();
@@ -10,7 +9,7 @@ export default async function Home() {
     <div>
       <h1 className="text-7xl font-extrabold text-pretty text-teal-700  ">
         {" "}
-        Hello I'm{" "}
+        Hello I am{" "}
         <span className="bg-gradient-to-r from-orange-400 to bg-purple-600 via-red-500 bg-clip-text text-transparent">
          Syed Muhammad Ali Kazmi </span>{" "}
       </h1>

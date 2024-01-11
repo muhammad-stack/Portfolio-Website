@@ -6,6 +6,6 @@ export  type Iprojects = {
     name : string,
     slug:string,
     image : string,
-    content :string,
-    url : PortableTextBlock[],
+    content :PortableTextBlock[],
+    url : string,
 }
